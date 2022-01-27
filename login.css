@@ -1,0 +1,106 @@
+body {
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  box-shadow: 2px 2px 4px lightgray;
+}
+
+header img {
+  height: 50px;
+  margin: 25px;
+}
+
+header p {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+main {
+  margin: 20px auto;
+  border: 2px lightgray solid;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 2px 2px lightgray;
+  padding: 20px;
+}
+
+.form_contents {
+  line-height: 40px;
+}
+
+
+h2 {
+  text-align: center;
+  border-bottom: 2px #31A263 solid;
+}
+
+.mail, .password {
+  padding-left: 15px;
+}
+
+.edit {
+  text-align: center;
+}
+
+.login_button{
+  text-align: center;
+}
+
+.login_button input {
+  background-color: #31A263;
+  color: white;
+  border-radius:4px; 
+  box-shadow: 1px 2px 2px #ddd; 
+  padding:2px 8px; 
+  margin:0 5px; 
+  border:1px solid lightgray; 
+  width: 100px;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px lightgray solid;
+  color: gray;
+  line-height: 40px;
+  font-size: 13px;
+  width: 100%;
+}
+
+img {
+  width: 200px;
+}
+
+ footer {
+   clear: both;
+ }
+ 
+.photo, .info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.photo {
+  margin: 20px;
+}
+
+.info {
+  margin-top: 0px;
+}
+.comments {
+  border-top: 1px lightgray solid;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.error_message {
+  padding-left: 5px;
+  border: 1px solid red;
+  background-color: pink;
+  color: red;
+}
